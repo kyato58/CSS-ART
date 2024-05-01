@@ -1,0 +1,68 @@
+.canvas {
+  width: 512px;
+  height: 600px;
+  background-color: rgb(211, 225, 80);
+  position: relative;
+}
+
+.ellipse1 {
+  position: absolute;
+  top: calc(50% - 42px);
+  left: calc(50% + 42px);
+  width: 25px;
+  height: 60px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.ellipse2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 170px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.circle1 {
+  position: absolute;
+  top: 200px;
+  left: 190px;
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  border: 2px solid #000;
+  border-radius: 50%;
+}
+
+.ellipse3 {
+  position: absolute;
+  top: 210px;
+  left: 190px;
+  width: 40px;
+  height: 20px;
+  background-color: rgb(253, 208, 104);
+  border-radius: 50%;
+}
+
+.circle2,
+.circle3 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.circle2 {
+  top: 185px;
+  left: 170px;
+}
+
+.circle3 {
+  top: 185px;
+  left: 210px;
+}
+
